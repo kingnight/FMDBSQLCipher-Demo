@@ -1,0 +1,24 @@
+PODS:
+  - FMDB (2.3):
+    - FMDB/standard (= 2.3)
+  - FMDB/common (2.3)
+  - FMDB/SQLCipher (2.3):
+    - FMDB/common
+    - SQLCipher
+  - FMDB/standard (2.3):
+    - FMDB/common
+  - SQLCipher (3.0.1):
+    - SQLCipher/standard (= 3.0.1)
+  - SQLCipher/common (3.0.1)
+  - SQLCipher/standard (3.0.1):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - FMDB
+  - FMDB/SQLCipher
+
+SPEC CHECKSUMS:
+  FMDB: 31ec26773c7f7b7890a6038235a1f2bbd933a7cb
+  SQLCipher: 16f738cbcac200e2362056a655077cbc28065954
+
+COCOAPODS: 0.35.0
